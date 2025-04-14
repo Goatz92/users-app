@@ -1,3 +1,7 @@
+__tests__/
+
+logs/
+
 node_modules/
 
 .env
