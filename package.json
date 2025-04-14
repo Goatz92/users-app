@@ -7,6 +7,15 @@
     "start": "node --env-file=.env server.js",
     "dev": "kill-port 3000 && node --env-file=.env --watch server.js"
   },
+
+  "jest": {
+    "collectCoverage":true,
+    "coveragePathIgnorePatterns":[
+      "/node_modules",
+      "/logs/"
+    ]
+  },
+
   "author": "",
   "license": "ISC",
   "description": "",
